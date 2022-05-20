@@ -1,0 +1,249 @@
+/* General Stylings */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+.container-body{
+  background: url('../images/body-bg.png');
+  min-height: 100vh;
+   height: auto;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: -4rem;
+    margin-right: auto;
+    margin-left: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+  flex: 1 0 auto;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+[type="radio"]:not(:checked),
+[type="radio"]:checked {
+  position: static;
+  opacity: 1;
+  pointer-events: fill;
+  width: 2em;
+  height: 1.5em;
+}
+
+label {
+  font-size: 2em;
+  position: unset;
+}
+
+.yesNo {
+  text-align: center;
+}
+
+/* Header Stylings */
+header {
+  border-radius: 0px;
+  margin: 0;
+  padding: 0.25%;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header h1 {
+  color: white;
+  font-size: 36px;
+  margin: 0;
+}
+.col-sub{
+  padding: -5rem;
+}
+/* MaterializeCSS Style Overrides */
+.btn {
+  margin: 5%;
+}
+
+.btn-large {
+  margin: 1%;
+}
+.modal-content{
+  color: white;
+}
+input:focus{
+  color: white;
+}
+.modal {
+  max-width: 50%;
+  max-height: 65%;
+  background-color: #2F3136;
+}
+.modal h4 {
+  text-align: center;
+  font-size: 3rem;
+}
+.modal p {
+  margin-top: -50px;
+  padding: 0;
+  text-align: center;
+}
+
+.about {
+  padding: 2%;
+}
+.container{
+  color:white;
+}
+.container p{
+  padding-top: 5rem;
+  font-size: 1.2rem;
+}
+.container h2{
+  padding-top: 5rem;
+}
+.heading{
+  background-color: rgba(0,0,0,0.5);  
+}
+.category-select {
+  padding: 2% 0;
+}
+
+.category-list p {
+  margin: 0;
+}
+.main-container {
+  padding: 0px;
+  margin-top:30px;
+}
+
+.heading__link {
+  text-decoration: none;
+}
+
+.heading__credits .heading__link {
+  color: inherit;
+}
+
+.container-quiz{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%),url('https://images-cdn.welcomesoftware.com/Zz03ZTY0Mzk3MDhlNDgxMWViYmRmNWY3MjZjM2QxZTdiZg==');
+  min-height: 100vh;
+   height: auto;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+}
+.card__title1 {
+  margin-top: 20px;
+  font-weight: 400;
+  color: white;
+}
+.card__apply1 {
+  margin-top: 140px;
+  align-self: center;
+}
+.card__apply2 {
+  margin-top: 0px;
+  align-self: center;
+}
+.card {
+  margin: 20px;
+  padding: 20px;
+  width: 350px;
+  height: 250px;
+  display: grid;
+  grid-template-rows: 20px 50px 1fr 50px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+  border: 1px solid black;
+}
+
+.card:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+
+.card__link1{
+  position: relative;
+  top: 80px;
+  text-decoration: none;
+  color: white;
+}
+.card__link1 a{
+  text-decoration: none;
+  color: white;
+}
+.card__link2{
+  position: relative;
+  text-decoration: none;
+  color: white;
+  margin-top: -10px;
+}
+
+.card__link1::after {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: white;
+  transition: all 0.5s;
+}
+
+.card__link1:hover::after {
+  width: 28%;
+}
+.card__link2::after {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: white;
+  transition: all 0.5s;
+}
+
+.card__link2:hover::after {
+  width: 43%;
+}
+.container-result{
+  color: black;
+}
+.card-1 {
+  background: #2F3136;
+  border-left: 5px solid #00BF00;
+}
+.card-2 {
+  background: #2F3136;
+  border-left: 5px solid cyan;
+}
+#suggestions {
+  padding: 2%;
+}
+card-record{
+  margin: 5%;
+}
+.container-previous{
+  color: black;
+}
+
