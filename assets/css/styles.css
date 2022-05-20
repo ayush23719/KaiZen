@@ -155,7 +155,7 @@ input:focus{
 }
 .card__title1 {
   margin-top: 20px;
-  font-weight: 400;
+  font-size: 2.3rem;
   color: white;
 }
 .card__apply1 {
@@ -164,7 +164,7 @@ input:focus{
 }
 .card__title2 {
   margin-top: 20px;
-  font-weight: 400;
+  font-size: 2.3rem;
   color: white;
 }
 .card__apply2 {
