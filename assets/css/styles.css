@@ -25,6 +25,8 @@ main {
 iframe {
   display: block;
   margin: 0 auto;
+  width: 100%;
+  height: 100%;
 }
 
 [type="radio"]:not(:checked),
@@ -234,8 +236,25 @@ input:focus{
 .card__link2:hover::after {
   width: 43%;
 }
+.container-res{
+  background: #3a6186;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .container-result{
-  color: black;
+  color: white;
+  min-height: 100vh;
+   height: auto;
+    width: 70%;
+    min-height: 100vh;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+  
 }
 .card-1 {
   background: #2F3136;
@@ -254,4 +273,32 @@ card-record{
 .container-previous{
   color: black;
 }
+.audio-record{
+  text-align: center;
+}
+.slider{
+  height: 400px;
+}
 
+.container-prev{
+  background: #3a6186;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container-previous{
+  width: 70%;
+  margin: 0 auto;
+}
+.col h2{
+  /* font-size: 1rem; */
+  text-align: center;
+}
+
+.music{
+  margin: 1rem 0;
+}
+
+.music h4 {
+  text-align: center;
+}
