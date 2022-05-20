@@ -1,5 +1,3 @@
-
-
 var quizCreationModal = $(".modal");
 let userQuestions = [];
 
@@ -518,4 +516,5 @@ let quizEndHandler = function () {
     "add=" + addQueryParam;
   console.log(queryString)
   window.location.replace("quiz-result.html" + queryString)
+ 
 }
