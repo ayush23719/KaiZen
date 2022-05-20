@@ -65,7 +65,6 @@ header h1 {
 .col-sub{
   padding: -5rem;
 }
-/* MaterializeCSS Style Overrides */
 .btn {
   margin: 5%;
 }
@@ -106,9 +105,11 @@ input:focus{
 }
 .container h2{
   padding-top: 5rem;
+  text-align: center;
+  font-weight: bold;
 }
-.heading{
-  background-color: rgba(0,0,0,0.5);  
+.main-heading{
+  background-color: rgba(0,0,0,0.8);  
 }
 .category-select {
   padding: 2% 0;
@@ -129,7 +130,9 @@ input:focus{
 .heading__credits .heading__link {
   color: inherit;
 }
-
+.quiz-heading{
+  background-color: rgba(0,0,0,0.9);
+}
 .container-quiz{
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%),url('https://images-cdn.welcomesoftware.com/Zz03ZTY0Mzk3MDhlNDgxMWViYmRmNWY3MjZjM2QxZTdiZg==');
   min-height: 100vh;
@@ -159,8 +162,13 @@ input:focus{
   margin-top: 140px;
   align-self: center;
 }
+.card__title2 {
+  margin-top: 20px;
+  font-weight: 400;
+  color: white;
+}
 .card__apply2 {
-  margin-top: 0px;
+  margin-top: 140px;
   align-self: center;
 }
 .card {
@@ -195,7 +203,7 @@ input:focus{
   position: relative;
   text-decoration: none;
   color: white;
-  margin-top: -10px;
+  margin-top: 80px;
 }
 
 .card__link1::after {

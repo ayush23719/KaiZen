@@ -1,15 +1,8 @@
-/*
- * js file for quiz logic
- * returns query parameters for each diagnosis type
-*/
 
-// variable declarations
 let weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 let seasons = ["Spring", "Summer", "Winter", "Fall"];
 
-// building questions
-// response types
-let responseType = { // an object with distinct types
+let responseType = { 
     yesNo: [{text: "Yes", score: 1}, {text: "No", score: 0}],
     weekday: weekdays,
     frequency: [
@@ -21,11 +14,8 @@ let responseType = { // an object with distinct types
     userInput: [],
     season: seasons
 }
-/*  Questions in this format
-    {question: "",
-    response: responseType.frequency},
-*/
-let depressionQuestions = [ // an array of objects depressionQuestions[0].question, depressionQuestions[1].response PHQ-9
+
+let depressionQuestions = [ 
     {question: "Are you having thoughts that you would be better off dead, or of hurting yourself?",
         response: responseType.yesNo},
     {question: "Are you having trouble concentrating on things such as reading the newspaper or watching TV?",
@@ -57,8 +47,7 @@ let ptsdQuestions = [
         response: responseType.yesNo},
 ] // 5 questions
 
-let schQuestions = [ // an array of objects
-    // thought disorder
+let schQuestions = [ 
     {question: "Are you experiencing any brain fog?", response: responseType.yesNo},
     {question: "Are you struggling to remember to eat or drink water?", response: responseType.yesNo},
     {question: "Are your thoughts jumbled or are you unable to think clearly?", response: responseType.yesNo},
