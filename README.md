@@ -10,6 +10,7 @@
 ## Resources
 
 - [undraw.co](https://undraw.co/) - for illustrations.
+- [GSAP](https://greensock.com/gsap/) - for animations.
 
 ## Status
 

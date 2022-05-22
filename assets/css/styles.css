@@ -109,6 +109,10 @@ body {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
   margin-bottom: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+.cd:hover {
+  transform: translateY(-10px);
 }
 .cd-title {
   font-weight: 600;
