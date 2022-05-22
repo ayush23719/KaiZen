@@ -20,11 +20,11 @@ symptoms = [];
 // listener for modal buttons
 quizCreationModal.on("click", ".quiz-begin", function () {
   //Call quiz start function here
-  console.log("Begin Quiz");
+  // console.log("Begin Quiz");
   // Gather info from checkboxes required for quiz creation
   // here
   let checkbox = document.querySelectorAll("input[type=checkbox]");
-  console.log(checkbox);
+  // console.log(checkbox);
   // loop through all checkboxes
   for (let i = 0; i < checkbox.length; i++) {
     if (checkbox[i].checked) {
@@ -44,7 +44,6 @@ quizCreationModal.on("click", ".quiz-begin", function () {
     if (userQuestions.includes("addiction")) {
       addCheck = true;
     }
-
     console.log(addCheck);
     if (addCheck === true) {
       let count = 0;
@@ -516,5 +515,5 @@ let quizEndHandler = function () {
     "add=" + addQueryParam;
   console.log(queryString)
   window.location.replace("quiz-result.html" + queryString)
- 
+
 }
